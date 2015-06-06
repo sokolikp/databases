@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>chatterbox</title>
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <!-- dependencies -->
+    <script src="bower_components/jquery/jquery.min.js"></script>
+    <script src="bower_components/underscore/underscore-min.js"></script>
+    <script src="bower_components/moment/min/moment.min.js"></script>
+    <!-- <script src="bower_components/underscore.string/escapeHTML.js"></script> -->
+    <!-- your scripts -->
+    <!-- <script src="env/config.js"></script> -->
+    <script src="scripts/app.js"></script>
+  </head>
+  <body>
+    <div id="main">
+      <h1>chatterbox</h1>
+      <!-- Your HTML goes here! -->
+      <!-- <form> -->
+        <div id='settings'>
+          <div id='current-name'>Anonymous User</div>
+          <div id='current-room'>Viewing All Messages</div>
+        </div>
+        <input type='text' id='username-input' placeholder="set your username"/>
+        <input type='text' id='room-input' placeholder="specify a chatroom"/>
+        <input type='text' id='message-input' placeholder="type message here"/>
+        <!-- <input type="submit" id="addMessage"></input> -->
+        <button id="add-message">add message</button>
+        <button id="filter">filter room</button>
+        <button id="show-all">show all messages</button>
+        <div id="chat-rooms">Available Rooms</div>
+        <div id="friend-list">Friends</div>
+        <div id="chats"></div>
+      <!-- </form> -->
+    </div>
+  </body>
+</html>
